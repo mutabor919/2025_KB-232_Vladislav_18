@@ -34,7 +34,7 @@ private:
     std::vector<SmartPointer<Exercise>> exercises;
 public:
     ExerciseManager();
-    SmartPointer<Exercise>&& GetExercise(size_t index);  // возврат по rvalue-ссылке
+    SmartPointer<Exercise>&& GetExercise(size_t index); 
     size_t GetExerciseCount() const;
 };
 
